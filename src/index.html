@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Little Mail</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="../src/css/styles.css" rel="stylesheet" />
+		<script defer type="module" src="./js/main.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div class="container">
+			<div class="container__inner">
+				<section class="hero shadow-xl hidden">
+					<div class="hero__inner flex flex-col flex-align-items-center flex-justify-content-center gradient-primary shadow-xl">
+						<div class="hero__headline">
+							<h1 class="h1 headline">LittleMail<small>A simple email builder.</small></h1>
+						</div>
+						<div class="hero__jumpoff flex flex-col flex-justify-content-center">
+							<h2 class="h5">What would you like to do?</h2>
+							<div class="buttons flex flex-row flex-justify-content-space-between">
+								<button class="button button-primary">Start from scratch</button>
+								<button class="button button-primary">Start from a template</button>
+							</div>
+						</div>
+						<div class="alert">
+							<div class="alert__inner">
+								<div class="alert__header">
+									<span class="close"></span>
+								</div>
+								<div class="alert__body"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="builder">
+					<div class="builder__inner">
+						<div class="builder__action-panel"></div>
+						<div class="builder__canvas-panel flex flex-col flex-justify-content-center flex-align-items-center">
+							<div class="builder__canvas-panel--inner">
+								<div class="builder__canvas-panel--inner--email-body"> </div	>
+							</div>
+						</div>
+						<div class="builder__library-panel flex flex-col flex-justify-content-center">
+							<div class="builder__library-panel--inner flex flex-col flex-align-items-space-between"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>

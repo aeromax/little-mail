@@ -1,0 +1,270 @@
+{
+	"data": {
+		"modules": [
+			{
+				"name": "head",
+				"options": [
+					{
+						"allowedInBuilder": false,
+						"allowedInSection": false,
+						"allowedInColumn": false,
+						"controls": ["background-color"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-head",
+						"children": [
+							{
+								"tagName": "mj-attributes",
+								"children": [
+									{
+										"tagName": "mj-breakpoint",
+										"tagName": "mj-font",
+										"tagName": "mj-preview",
+										"tagName": "mj-style"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "body",
+				"options": [
+					{
+						"allowedInBuilder": false,
+						"allowedInSection": false,
+						"allowedInColumn": false,
+						"controls": ["background-color"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-body",
+						"children": [
+							{
+								"tagName": "mj-selector",
+								"attributes": {"path": ".email-body"}
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "section",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": false,
+						"allowedInColumn": false,
+						"controls": ["background-color", "border", "css-class", "direction", "full-width", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top", "text-align", "group"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-section"
+					}
+				]
+			},
+			{
+				"name": "hero",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": false,
+						"allowedInColumn": false,
+						"controls": ["background-color", "background-height", "background-position", "background-width", "background-url", "border-radius", "height", "mode", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top", "vertical-align"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-hero"
+					}
+				]
+			},
+			{
+				"name": "accordion",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": true,
+						"allowedInColumn": true,
+						"controls": ["border", "background-color", "font-family", "icon-align", "icon-height", "icon-position", "icon-unwrapped-url", "icon-width", "icon-wrapped-url", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-accordion",
+						"children": [
+							{
+								"tagName": "mj-accordion-element",
+								"children": [
+									{
+										"tagName": "mj-accordion-title",
+										"children": [
+											{
+												"tagName": "mj-text"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "button",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": false,
+						"allowedInColumn": true,
+						"controls": ["align", "background-color", "border", "color", "font-family", "font-size", "font-style", "font-weight", "height", "href", "inner-padding", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top", "target", "text-align", "text-decoration", "text-transform", "vertical-align", "width"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-button"
+					}
+				]
+			},
+			{
+				"name": "column",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": true,
+						"allowedInColumn": false,
+						"controls": ["background-color", "inner-background-color", "border", "border-bottom", "border-left", "border-right", "border-top", "border-radiu", "inner-border", "inner-border-bottom", "inner-border-left", "inner-border-right", "inner-border-top", "inner-border-radius", "width"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-column"
+					}
+				]
+			},
+			{
+				"name": "divider",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": true,
+						"allowedInColumn": false,
+						"controls": ["align", "border-color", "border-style", "border-width", "container-background-color", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top", "width"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-divider"
+					}
+				]
+			},
+			{
+				"name": "group",
+				"options": [
+					{
+						"allowedInBuilder": false,
+						"allowedInSection": false,
+						"allowedInColumn": false,
+						"controls": ["background-color", "direction"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-group"
+					}
+				]
+			},
+			{
+				"name": "image",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": false,
+						"allowedInColumn": true,
+						"controls": ["align", "alt", "border", "border-top", "border-bottom", "border-left", "border-right", "border-radius", "container-background-color", "css-class", "fluid-on-mobile", "height", "href", "name", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top", "sizes", "src", "srcset", "target", "width"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-image"
+					}
+				]
+			},
+			{
+				"name": "navbar",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": true,
+						"allowedInColumn": true,
+						"controls": ["align", "base url", "css-class", "hamburger", "ico-align", "ico-close", "ico-color", "ico-text-transform"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-navbar",
+						"children": [
+							{
+								"tagName": "mj-navbar-link",
+								"children": "Link"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "spacer",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": true,
+						"allowedInColumn": true,
+						"controls": ["container-background-color", "height"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-spacer"
+					}
+				]
+			},
+			{
+				"name": "text",
+				"options": [
+					{
+						"allowedInBuilder": true,
+						"allowedInSection": false,
+						"allowedInColumn": true,
+						"controls": ["color", "font-family", "font-size", "font-style", "font-weight", "line-height", "letter-spacing", "height", "text-decoration", "text-transform", "align", "container-background-color", "padding", "padding-top", "padding-bottom", "padding-left", "padding-right", "css-class"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-text"
+					}
+				]
+			},
+			{
+				"name": "wrapper",
+				"options": [
+					{
+						"allowedInBuilder": false,
+						"allowedInSection": false,
+						"allowedInColumn": false,
+						"controls": ["background-color", "background-position", "background-position-x", "background-position-y", "background-repeat", "background-size", "background-url", "border", "border-bottom", "border-left", "border-radius", "border-right", "border-top", "css-class", "full-width", "padding", "padding-bottom", "padding-left", "padding-right", "padding-top", "text-align"]
+					}
+				],
+				"markup": [
+					{
+						"tagName": "mj-wrapper"
+					}
+				]
+			}
+		]
+	}
+}

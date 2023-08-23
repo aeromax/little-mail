@@ -1,0 +1,14 @@
+export const emailWidth = '600';
+export const breakpoint = '';
+export const fontName = '';
+export const fontUrl = '';
+export const preview = '';
+export const styles = '';
+export const body = '';
+export const buttonText = '';
+export const accordionTitleText = '';
+export const accordionBodyText = '';
+export const textBlock = '';
+export const button = '';
+export const section = '';
+export const image = '';

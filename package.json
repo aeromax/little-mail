@@ -1,0 +1,35 @@
+{
+	"name": "little-mail",
+	"version": "1.0.0",
+	"description": "Little Mail is a simple program for designing HTML emails that will render correctly in a wide range of email clients.",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel serve src/index.html  --open firefox --public-url / --dist-dir dist ",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aeromax/little-mail.git"
+	},
+	"keywords": [
+		"email",
+		"drag",
+		"and",
+		"drop",
+		"mjml",
+		"wysiwyg",
+		"design"
+	],
+	"author": "Max Palmer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aeromax/little-mail/issues"
+	},
+	"homepage": "https://github.com/aeromax/little-mail#readme",
+	"dependencies": {
+		"@shopify/draggable": "^1.0.0-beta.8",
+		"mjml-browser": "^4.14.1",
+		"mjml2json": "^1.0.1",
+		"parcel": "^2.9.3"
+	}
+}
